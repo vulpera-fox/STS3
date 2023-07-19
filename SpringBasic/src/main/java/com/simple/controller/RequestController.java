@@ -14,9 +14,10 @@ public class RequestController {
 	}
 	
 	@RequestMapping("/basic1")
-	public String basic1() {
+	public void basic1() {
 		
-		return "request/basic1";
+		System.out.println("basicø‰√ª");
+		
 	}
 	
 }
